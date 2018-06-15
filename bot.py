@@ -19,7 +19,7 @@ async def on_ready() :
 
 @bot.command(pass_context=True)
 async def reklam(ctx) :
-    await bot.say("twitch.tv/RickTVPUBG izle knk")
+    await bot.say("www.twitch.tv/RickTVPUBG izle knk")
 
 @bot.command(pass_context=True)
 async def a(ctx, member:discord.Member):
