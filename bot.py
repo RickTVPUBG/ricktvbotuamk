@@ -20,6 +20,10 @@ async def on_ready() :
 @bot.command(pass_context=True)
 async def reklam(ctx) :
     await bot.say("www.twitch.tv/RickTVPUBG izle knk")
+    
+@bot.command(pass_context=True)
+async def csgo(ctx) :
+    await bot.say("185.78.86.156:27015")
 
 @bot.command(pass_context=True)
 async def a(ctx, member:discord.Member):
