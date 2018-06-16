@@ -23,7 +23,7 @@ async def reklam(ctx) :
     
 @bot.command(pass_context=True)
 async def csgo(ctx) :
-    await bot.say("185.78.86.156:27015")
+    await bot.say("CSGO Serverimizin IPsi : 185.78.86.156:27015")
 
 @bot.command(pass_context=True)
 async def a(ctx, member:discord.Member):
