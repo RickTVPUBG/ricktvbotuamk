@@ -24,6 +24,14 @@ async def reklam(ctx) :
 @bot.command(pass_context=True)
 async def csgo(ctx) :
     await bot.say("CSGO Serverimizin IPsi : 185.78.86.156:27015")
+    
+@bot.command(pass_context=True)
+async def steam(ctx) :
+    await bot.say("https://steamcommunity.com/id/rickandmortyrick")
+ 
+@bot.command(pass_context=True)
+async def youtube(ctx) :
+    await bot.say("https://www.youtube.com/c/LargeFX")
 
 @bot.command(pass_context=True)
 async def a(ctx, member:discord.Member):
